@@ -1,0 +1,8 @@
+.NavItem {
+  list-style-type: none;
+}
+
+a {
+  color:var(--home-page-color) ;
+  text-decoration: none;
+}

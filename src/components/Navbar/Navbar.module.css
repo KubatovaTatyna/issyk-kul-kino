@@ -1,0 +1,10 @@
+.Navbar ul {
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Navbar img {
+  width: 190.65px;
+}
