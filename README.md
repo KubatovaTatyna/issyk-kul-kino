@@ -1,0 +1,1 @@
+# issyk-kul-kino
