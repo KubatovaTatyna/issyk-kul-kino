@@ -1,8 +1,7 @@
 import NavItem from "./NavItem/NavItem";
 import './Navbar.scss';
-import logo from '../../images/yellowBlueLogo.png'
 
-const Navbar = () => {
+const Navbar = ({logo}) => {
   return (
     <nav className='Navbar'>
       <ul>

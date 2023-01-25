@@ -2,3 +2,7 @@
   background-color: #131F31;
   color: var(--home-page-color);
 }
+
+.HomePage a {
+  color: var(--home-page-color) !important;
+}
