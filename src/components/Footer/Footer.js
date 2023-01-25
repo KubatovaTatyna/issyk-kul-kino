@@ -1,7 +1,7 @@
 import './Footer.scss';
-import logo from '../../images/footerlogo.png'
+import { Link } from 'react-router-dom';
 
-const Footer = () => {
+const Footer = ({logo}) => {
   return ( <div className='Footer'>
     <div className='row'>
       <div className='col-9'>
@@ -9,13 +9,13 @@ const Footer = () => {
           <div className='col-2'><img src={logo}/></div>
           <div className='col-9'>
             <ul>
-              <li><a href='#'>РАСПИСАНИЕ ФИЛЬМОВ</a></li>
-              <li><a href='#'>КИНОТЕАТР</a></li>
-              <li><a href='#'>КИНОБАР</a></li>
-              <li><a href='#'>КОНТАКТЫ</a></li>
-              <li><a href='#'>НОВОСТИ</a></li>
-              <li><a href='#'>ВАКАНСИИ</a></li>
-              <li><a href='#'>ПРАВИЛА ПОСЕЩЕНИЯ КИНОТЕАТРОВ</a></li>
+              <li><Link to='/films'>РАСПИСАНИЕ ФИЛЬМОВ</Link></li>
+              <li><Link to='/cinema'>КИНОТЕАТР</Link></li>
+              <li><Link to='/kinobar'>КИНОБАР</Link></li>
+              <li><Link to='/contacts'>КОНТАКТЫ</Link></li>
+              <li><Link to='/news'>НОВОСТИ</Link></li>
+              <li><Link to='/jobs'>ВАКАНСИИ</Link></li>
+              <li><Link to='/rules'>ПРАВИЛА ПОСЕЩЕНИЯ КИНОТЕАТРОВ</Link></li>
             </ul>
           </div>
         </div>
