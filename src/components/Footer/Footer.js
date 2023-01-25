@@ -6,7 +6,7 @@ const Footer = ({logo}) => {
     <div className='row'>
       <div className='col-9'>
         <div className='row'>
-          <div className='col-2'><img src={logo} alt='here image'/></div>
+          <div className='col-2'><img src={logo} alt='cinema'/></div>
           <div className='col-9'>
             <ul>
               <li><Link to='/films'>РАСПИСАНИЕ ФИЛЬМОВ</Link></li>

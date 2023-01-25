@@ -6,7 +6,7 @@ const MovieItem = ({ img1, img2, img3, movieName1, movieName2, movieName3 }) => 
       <div className='row text-center mb-5'>
         <div className='col-4'>
           <div className='ImgHover'>
-            <img src={img1} alt='here image'/>
+            <img src={img1} alt='cinema'/>
             <div className='HoverText'>
               <h3>"{movieName1}"</h3>
               <a href='/description'>ОПИСАНИЕ</a>
@@ -15,7 +15,7 @@ const MovieItem = ({ img1, img2, img3, movieName1, movieName2, movieName3 }) => 
         </div>
         <div className='col-4'>
           <div className='ImgHover'>
-            <img src={img2} alt='here image'/>
+            <img src={img2} alt='cinema'/>
             <div className='HoverText'>
               <h3>"{movieName2}"</h3>
               <a href='/description'>ОПИСАНИЕ</a>
@@ -24,7 +24,7 @@ const MovieItem = ({ img1, img2, img3, movieName1, movieName2, movieName3 }) => 
         </div>
         <div className='col-4'>
           <div className='ImgHover'>
-            <img src={img3} alt='here image'/>
+            <img src={img3} alt='cinema'/>
             <div className='HoverText'>
               <h3>"{movieName3}"</h3>
               <a href='/description'>ОПИСАНИЕ</a>
