@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
-import classes from './NavItem.module.css';
+import './NavItem.scss';
 const NavItem = ({to, children, src}) => {
-  return ( <li className={classes.NavItem}>
+  return ( <li className='NavItem'>
     <Link to={to} src={src}>{children}</Link>
   </li> );
 }

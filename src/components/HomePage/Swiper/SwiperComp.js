@@ -6,7 +6,7 @@ import SwiperSlideComp from './SwiperSlideComp/SwiperSlideComp';
 import ayash2header from '../../../images/Ayash2Header.png';
 import buyursaHeader from '../../../images/buyursaHeader.png';
 import wakanda from '../../../images/wakanda.png';
-import "./swiperStyle.css";
+import "./swiperStyle.scss";
 
 
 const SwiperComp = () => {

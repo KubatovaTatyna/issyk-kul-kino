@@ -1,11 +1,13 @@
 import Navbar from '../Navbar/Navbar';
-import classes from './HomePage.module.css'
+import './HomePage.scss';
+import MovieList from './MovieList/MovieList';
 import SwiperComp from './Swiper/SwiperComp';
 
 const HomePage = () => {
-  return (<div className={classes.HomePage}>
+  return (<div className='HomePage'>
     <Navbar />
     <SwiperComp />
+    <MovieList />
   </div>);
 }
 

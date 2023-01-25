@@ -1,7 +1,7 @@
 
-import classes from './SwiperSlideComp.module.css'
+import './SwiperSlideComp.scss'
 const SwiperSlideComp = ({ src }) => {
-  return (<div className={classes.SwiperSlideComp}>
+  return (<div className='SwiperSlideComp'>
     <img src={src} alt='swiper img' />
   </div>
   );

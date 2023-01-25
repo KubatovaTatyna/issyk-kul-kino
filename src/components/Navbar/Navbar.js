@@ -1,10 +1,10 @@
 import NavItem from "./NavItem/NavItem";
-import classes from './Navbar.module.css';
+import './Navbar.scss';
 import logo from '../../images/yellowBlueLogo.png'
 
 const Navbar = () => {
   return (
-    <nav className={classes.Navbar}>
+    <nav className='Navbar'>
       <ul>
         <NavItem to='/'>
           <img src={logo} />

@@ -14,3 +14,8 @@ html {
 :root {
   --home-page-color: rgba(255, 238, 121, 1)
 }
+
+.container {
+  max-width: 80vw;
+  margin: 0 auto;
+}

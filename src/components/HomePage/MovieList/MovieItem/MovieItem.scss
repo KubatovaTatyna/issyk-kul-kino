@@ -1,0 +1,27 @@
+.MovieItem img {
+  width: 226px;
+  height: 330px;
+}
+
+.HoverText {
+  background:  rgba(19, 31, 49, 0.93);
+  width: 226px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 3rem 1rem;
+}
+
+.ImgHover {
+  width: 226px;
+  height: 330px;
+  margin: 0;
+  overflow: hidden;
+}
+
+.ImgHover:hover {
+  cursor: pointer;
+  .HoverText {
+    transform: translateY(-10rem);
+    transition: all ease .6s;
+  }
+}
