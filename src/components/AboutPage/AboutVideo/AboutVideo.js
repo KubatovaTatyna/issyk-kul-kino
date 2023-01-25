@@ -7,7 +7,7 @@ const AboutVideo = () => {
     {/* <video width="50%">
       <source src={video} type="video/mp4" />
     </video> */}
-    <img src={video}/>
+    <img src={video} alt='here image'/>
   </div>);
 }
 

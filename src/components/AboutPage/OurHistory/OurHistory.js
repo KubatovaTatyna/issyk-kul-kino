@@ -8,12 +8,12 @@ const OurHistory = () => {
   return ( <div className="OurHistory container">
     <h1 className='text-white'>НАША ИСТОРИЯ</h1>
     <div className='row'>
-      <div className='col-6'><img src={history1}/></div>
-      <div className='col-5'><img src={history2}/></div>
+      <div className='col-6'><img src={history1} alt='here image'/></div>
+      <div className='col-5'><img src={history2} alt='here image'/></div>
     </div>
     <div className='row mt-5'>
-      <div className='col-6'><img src={history4}/></div>
-      <div className='col-5'><img src={history3}/></div>
+      <div className='col-6'><img src={history4} alt='here image'/></div>
+      <div className='col-5'><img src={history3} alt='here image'/></div>
     </div>
   </div> );
 }

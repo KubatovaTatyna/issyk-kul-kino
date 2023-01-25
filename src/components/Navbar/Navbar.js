@@ -6,7 +6,7 @@ const Navbar = ({logo}) => {
     <nav className='Navbar'>
       <ul>
         <NavItem to='/'>
-          <img src={logo} />
+          <img src={logo} alt='here image'/>
         </NavItem>
         <NavItem to='/films'>РАСПИСАНИЕ ФИЛЬМОВ</NavItem>
         <NavItem to='/cinema'>КИНОТЕАТР</NavItem>
