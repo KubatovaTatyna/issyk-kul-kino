@@ -8,7 +8,7 @@ import footerlogo from '../../images/footerlogo.png';
 
 const HomePage = () => {
   return (<div className='HomePage'>
-    <Navbar logo={logo}/>
+    <Navbar/>
     <SwiperHome />
     <MovieList />
     <Footer logo={footerlogo}/>

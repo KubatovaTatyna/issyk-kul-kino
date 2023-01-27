@@ -1,5 +1,4 @@
 import Navbar from "../Navbar/Navbar";
-import logo from '../../images/blackwhitelogo.png';
 import './AboutPage.scss';
 import AboutHeader from "./AboutHeader/AboutHeader";
 import SwiperAbout from "./Swiper/SwiperAbout";
@@ -10,7 +9,7 @@ import footerlogo from '../../images/footerlogo1.png';
 
 const AboutPage = () => {
   return (<div className="AboutPage">
-    <Navbar logo={logo}/>
+    <Navbar/>
     <AboutHeader />
     <SwiperAbout />
     <AboutVideo />

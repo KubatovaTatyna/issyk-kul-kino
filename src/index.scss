@@ -4,6 +4,8 @@ body,
 html {
   margin: 0;
   padding: 0;
+  background-color: #131F31;
+  color: var(--home-page-color);
 }
 
 * {
@@ -23,4 +25,8 @@ html {
 
 li {
   list-style-type: none;
+}
+
+ a {
+  color: var(--home-page-color) !important;
 }
