@@ -14,6 +14,7 @@ const Navbar = () => {
         <NavItem to='/cinema'>КИНОТЕАТР</NavItem>
         <NavItem to='/contacts'>КОНТАКТЫ</NavItem>
       </ul>
+      <hr />
     </nav>);
 }
 

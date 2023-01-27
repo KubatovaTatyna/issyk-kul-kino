@@ -1,32 +1,14 @@
 import './MovieItem.scss';
 
-const MovieItem = ({ img1, img2, img3, movieName1, movieName2, movieName3 }) => {
+const MovieItem = ({ img, name }) => {
   return (
-    <div className='MovieItem'>
-      <div className='row text-center mb-5'>
-        <div className='col-4'>
+    <div className='MovieItem col-4'>
+      <div className='text-center mb-5'>
+        <div className=''>
           <div className='ImgHover'>
-            <img src={img1} alt='cinema'/>
+            <img src={img} alt='cinema' />
             <div className='HoverText'>
-              <h3>"{movieName1}"</h3>
-              <a href='/description'>ОПИСАНИЕ</a>
-            </div>
-          </div>
-        </div>
-        <div className='col-4'>
-          <div className='ImgHover'>
-            <img src={img2} alt='cinema'/>
-            <div className='HoverText'>
-              <h3>"{movieName2}"</h3>
-              <a href='/description'>ОПИСАНИЕ</a>
-            </div>
-          </div>
-        </div>
-        <div className='col-4'>
-          <div className='ImgHover'>
-            <img src={img3} alt='cinema'/>
-            <div className='HoverText'>
-              <h3>"{movieName3}"</h3>
+              <h3>"{name}"</h3>
               <a href='/description'>ОПИСАНИЕ</a>
             </div>
           </div>
