@@ -6,7 +6,7 @@ const MovieList = () => {
   return (
     <div className='MovieList'>
       <div className="container">
-        <div className='MovieListBg row'>
+        <div className='containerBackground row'>
           {moviesData.map((data, key) => {
           return (
             <MovieItem img={data.movieImage} name={data.movieName}/>

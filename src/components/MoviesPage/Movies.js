@@ -8,7 +8,7 @@ const Movies = () => {
     <Navbar />
     <div className='container'>
       <h1 className='mt-5 mb-2'>СЕГОДНЯ В КИНО</h1>
-      <div className='row mt-5 MoviesBg'>
+      <div className='row mt-5 containerBackground'>
         {moviesData.map((data, key) => {
           return (
             <MovieItem img={data.movieImage} name={data.movieName}/>

@@ -1,4 +1,6 @@
+import { Link } from 'react-router-dom';
 import './MovieItem.scss';
+import { moviesData } from '../../../../data/movies';
 
 const MovieItem = ({ img, name }) => {
   return (
@@ -9,7 +11,11 @@ const MovieItem = ({ img, name }) => {
             <img src={img} alt='cinema' />
             <div className='HoverText'>
               <h3>"{name}"</h3>
-              <a href='/description'>ОПИСАНИЕ</a>
+              {moviesData.map((data, key) => {
+                return (
+                  <Link to={'/description/' + data.descriptionId}>{data.movieName}</Link>
+                );
+              })}
             </div>
           </div>
         </div>
