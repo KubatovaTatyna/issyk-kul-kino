@@ -2,11 +2,11 @@ import { Link } from 'react-router-dom';
 import './MovieItem.scss';
 import { moviesData } from '../../../../data/movies';
 
-const MovieItem = ({ img, name }) => {
+const MovieItem = ({ movie }) => {
   return (
     <div className='MovieItem col-4'>
       <div className='text-center mb-5'>
-        <div className=''>
+        {/* <div className=''>
           <div className='ImgHover'>
             <img src={img} alt='cinema' />
             <div className='HoverText'>
@@ -18,7 +18,9 @@ const MovieItem = ({ img, name }) => {
               })}
             </div>
           </div>
-        </div>
+        </div> */}
+        <img src={movie.movieImage}/>
+        <Link to={"/films/" + movie.descriptionId}>{movie.movieName}</Link>
       </div>
     </div>
   );

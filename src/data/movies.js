@@ -2,7 +2,7 @@ import ayash2 from '../images/ayash2.png';
 import avatar from '../images/avatar.jpg';
 import baikush from '../images/baikush.jpg';
 
-export const moviesData =[
+export const moviesData = [
     {
         movieName: 'АЯШ 2',
         description: 'Үй-бүлөөлүк комедиянын уландысы. Бул ирет Койчубековтордун үй-бүлөөсү Ош шаарында өтө турган Катянын атасынын 60-жылдык тоюна сапар алышат.  Адатка айлангандай эле өзүнүн кошуналарын Бакыт менен Каныкейди шерик кылып чогуу алып алышат. Кызыктуу окуялардын баары 60-жылдык тойдо баштала. Анткени Сапардын жана анын кайненесинин ортосунда болгон өзгөчө мамилелерине бул ирет Сапардын бажалары кошулат.',
@@ -24,11 +24,11 @@ export const moviesData =[
         movieImage: baikush,
         descriptionId: 3
     },
-    
+
 ]
 
 export function getMovie(descriptionId) {
     return moviesData[
         moviesData.findIndex(movie => movie.descriptionId === descriptionId)
     ]
-  }
+};
