@@ -18,7 +18,7 @@ const DescriptionPage = () => {
             <div className='containerBackground mt-5 p-5'>
                 <div className='row'>
                     <div className='col-6'>
-                        <img src={movie.movieImage} />
+                        <img src={movie.movieImage} alt='movie'/>
                     </div>
                     <div className='col-6'>
                         <h2>{movie.movieName}</h2>
