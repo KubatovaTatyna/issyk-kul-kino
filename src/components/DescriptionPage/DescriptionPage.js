@@ -6,7 +6,7 @@ import { useParams } from "react-router-dom";
 const DescriptionPage = () => {
     const params = useParams();
     const movie = getMovie(params.descriptionId);
-    console.log(params)
+    // console.log(params)
     if (!movie) {
         return null;
     }
@@ -22,7 +22,8 @@ const DescriptionPage = () => {
                     </div>
                     <div className='col-6'>
                         <h2>{movie.movieName}</h2>
-                        <p>{movie.description}</p>
+                        <p>{movie.description
+                        }</p>
                     </div>
                 </div>
             </div>
