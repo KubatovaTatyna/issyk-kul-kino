@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
 import './MovieItem.scss';
-import { moviesData } from '../../../../data/movies';
 
 const MovieItem = ({ movie }) => {
   return (
