@@ -4,7 +4,7 @@ import session from '../../images/12-02.jpg';
 import './Sessions.scss';
 import Footer from '../Footer/Footer';
 
-const Sessions = ({}) => {
+const Sessions = () => {
     return (
         <div className="Sessions">
             <Navbar />
