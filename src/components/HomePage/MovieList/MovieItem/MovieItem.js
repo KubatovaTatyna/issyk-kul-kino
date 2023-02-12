@@ -3,7 +3,7 @@ import './MovieItem.scss';
 
 const MovieItem = ({ movie }) => {
   return (
-    <div className='MovieItem col-4'>
+    <div className='MovieItem col-sm'>
       <div className='text-center mb-5'>
         <div className='ImgHover'>
           <img src={movie.movieImage} alt='cinema' />
