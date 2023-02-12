@@ -17,13 +17,12 @@ const DescriptionPage = () => {
         <div className='container'>
             <div className='containerBackground mt-5 p-5'>
                 <div className='row'>
-                    <div className='col-6'>
+                    <div className='col-4'>
                         <img src={movie.movieImage} alt='movie'/>
                     </div>
                     <div className='col-6'>
                         <h2>{movie.movieName}</h2>
-                        <p>{movie.description
-                        }</p>
+                        <p>{movie.description}</p>
                     </div>
                 </div>
             </div>
