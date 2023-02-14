@@ -7,10 +7,8 @@ import MovieList from '../HomePage/MovieList/MovieList';
 const Movies = () => {
   return (<div className='Movies'>
     <Navbar />
-    <div className='container'>
-      <h1 className='mt-5 mb-2'>СЕГОДНЯ В КИНО</h1>
-      <MovieList />
-    </div>
+    <h1 className='mt-5 mb-2 container'>СЕГОДНЯ В КИНО</h1>
+    <MovieList />
 
   </div>);
 }

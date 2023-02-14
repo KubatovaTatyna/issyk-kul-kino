@@ -3,13 +3,12 @@ import './MovieItem.scss';
 
 const MovieItem = ({ movie }) => {
   return (
-    <div className='MovieItem col-4'>
+    <div className='MovieItem col-sm'>
       <div className='text-center mb-5'>
         <div className='ImgHover'>
           <img src={movie.movieImage} alt='cinema' />
           <div className='HoverText'>
-            <h3>"{movie.movieName}"</h3>
-            <Link to={"/films/" + movie.descriptionId}>ОПИСАНИЕ</Link>
+            <Link to={"/films/" + movie.descriptionId}>"{movie.movieName}"</Link>
           </div>
         </div>
       </div>

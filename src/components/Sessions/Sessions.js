@@ -1,21 +1,20 @@
-// import { Link } from "react-router-dom";
-import SessionsItem from "./SessionsItem/SessionsItem";
-import './Sessions.scss';
+// import { sessions } from "../../data/sessions";
 import Navbar from "../Navbar/Navbar";
-import { sessions } from "../../data/sessions";
+import session from '../../images/12-02.jpg';
+import './Sessions.scss';
+import Footer from '../Footer/Footer';
 
 const Sessions = () => {
-    const output = () => {
-        return sessions
-    }
-    console.log(output())
-    return (<div className="Sessions">
-        <div className="container">
+    return (
+        <div className="Sessions">
             <Navbar />
-            <h1 className="mt-5">Today</h1>
-            {output}
+            <div className="container text-center mt-5 mb-5">
+                <h2>Репертуар на 12.02</h2>
+                <img alt='sessions' className="session-img" src={session}/>
+            </div>
+            <Footer />
         </div>
-    </div>);
+    );
 }
 
 export default Sessions;
