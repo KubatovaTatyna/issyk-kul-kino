@@ -1,11 +1,17 @@
 .Toolbar {
-    display: flex;
-    justify-content: space-between;
-    padding: .4rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  padding: .4rem 2rem;
 }
 
 @media(max-width:1100px) {
-    .Toolbar ul{
-      display: none;
-    }
+  .Toolbar ul {
+    display: none;
   }
+}
+
+@media(max-width:500px) {
+  .Toolbar {
+    padding: .2rem 0;
+  }
+}

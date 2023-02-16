@@ -7,7 +7,6 @@ import Footer from '../Footer/Footer';
 const Sessions = () => {
     return (
         <div className="Sessions">
-            <Navbar />
             <div className="container text-center mt-5 mb-5">
                 <h2>Репертуар на 12.02</h2>
                 <img alt='sessions' className="session-img" src={session}/>
