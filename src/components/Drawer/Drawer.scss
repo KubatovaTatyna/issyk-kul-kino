@@ -11,6 +11,7 @@
 
     z-index: 20;
     transition: transform ease 1s;
+    transform: translateX(-400px);
 }
 
 .Drawer .Navbar {
@@ -33,13 +34,22 @@
     background-color: rgba(0, 0, 0, .3);
 
     z-index: 15;
+    display: none;
 }
 
-@media(min-width:1100px) {
-    .Drawer .content {
-        transform: translateX(-400px);
-    }
-    .Drawer .backdrop {
-        display: none;
-    }
+.open .content{
+    transform: translateX(0);
 }
+
+.open .backdrop{
+    display: block;
+}
+
+// @media(min-width:1100px) {
+//     .Drawer .content {
+//         transform: translateX(-400px);
+//     }
+//     .Drawer .backdrop {
+//         display: none;
+//     }
+// }

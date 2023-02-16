@@ -3,12 +3,12 @@ import Navbar from "../Navbar/Navbar";
 import NavToggle from "../Navbar/NavToggle/NavToggle";
 import './Toolbar.scss';
 
-const Toolbar = () => {
+const Toolbar = ({ toggleDrawer }) => {
     return ( 
         <div className="Toolbar">
             <Logo />
             <Navbar />
-            <NavToggle />
+            <NavToggle callback={toggleDrawer}/>
         </div>
      );
 }

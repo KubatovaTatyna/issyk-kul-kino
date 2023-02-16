@@ -1,8 +1,8 @@
 import './NavToggle.scss';
 
-const NavToggle = () => {
+const NavToggle = ({ callback }) => {
     return (
-        <div className='NavToggle'>
+        <div className='NavToggle' onClick={callback}>
             <div></div>
             <div></div>
             <div></div>
