@@ -8,11 +8,13 @@ import Contact from './components/ContactPage/ContactPage';
 import Sessions from './components/Sessions/Sessions';
 import Navbar from './components/Navbar/Navbar';
 import Toolbar from './components/Toolbar/Toolbar';
+import Drawer from './components/Drawer/Drawer';
 
 function App() {
   return (
     <div className="App">
       <Toolbar />
+      <Drawer />
       <Routes>
         <Route path='/' element={<HomePage />} exact />
         <Route path='/sessions' element={<Sessions />} />

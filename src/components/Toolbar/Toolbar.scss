@@ -3,3 +3,9 @@
     justify-content: space-between;
     padding: .4rem 2rem;
 }
+
+@media(max-width:1100px) {
+    .Toolbar ul{
+      display: none;
+    }
+  }
