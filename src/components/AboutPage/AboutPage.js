@@ -9,7 +9,6 @@ import footerlogo from '../../images/footerlogo1.png';
 
 const AboutPage = () => {
   return (<div className="AboutPage">
-    <Navbar/>
     <AboutHeader />
     <SwiperAbout />
     <AboutVideo />

@@ -6,7 +6,6 @@ import SwiperHome from './Swiper/SwiperHome';
 
 const HomePage = () => {
   return (<div className='HomePage'>
-    <Navbar/>
     <SwiperHome />
     <MovieList />
     <Footer />

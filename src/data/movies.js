@@ -5,6 +5,7 @@ import jez from '../images/movies/jez1.jpg';
 import kot from '../images/movies/kot.jpg';
 import ayash2 from '../images/movies/ayash2.png';
 import buyursa from '../images/movies/buyursa1.png';
+import boshetunmai1 from '../images/movies/boshetunmai1.png';
 
 export const moviesData = [
     {
@@ -39,7 +40,7 @@ export const moviesData = [
         movieName: 'BOSHETUNMAI ',
         description: "Четыре истории с разными героями. Общее только одно: boshetunmai.",
         trailer: "https://www.youtube.com/embed/W1Wfg9hoONs",
-        movieImage: jez,
+        movieImage: boshetunmai1,
         descriptionId: "boshetunmai"
     },
     {

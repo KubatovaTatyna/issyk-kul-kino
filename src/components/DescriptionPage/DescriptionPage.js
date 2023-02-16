@@ -13,7 +13,6 @@ const DescriptionPage = () => {
 
 
     return (<div className='DescriptionPage'>
-        <Navbar />
         <div className='container'>
             <div className='containerBackground mt-5 p-5'>
                 <div className='row'>
