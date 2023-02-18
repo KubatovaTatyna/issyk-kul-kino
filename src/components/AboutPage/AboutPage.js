@@ -1,4 +1,3 @@
-import Navbar from "../Navbar/Navbar";
 import './AboutPage.scss';
 import AboutHeader from "./AboutHeader/AboutHeader";
 import SwiperAbout from "./Swiper/SwiperAbout";

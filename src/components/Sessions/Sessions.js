@@ -1,5 +1,3 @@
-// import { sessions } from "../../data/sessions";
-import Navbar from "../Navbar/Navbar";
 import session from '../../images/12-02.jpg';
 import './Sessions.scss';
 import Footer from '../Footer/Footer';

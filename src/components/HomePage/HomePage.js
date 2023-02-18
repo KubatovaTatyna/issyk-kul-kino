@@ -1,5 +1,4 @@
 import Footer from '../Footer/Footer';
-import Navbar from '../Navbar/Navbar';
 import './HomePage.scss';
 import MovieList from './MovieList/MovieList';
 import SwiperHome from './Swiper/SwiperHome';

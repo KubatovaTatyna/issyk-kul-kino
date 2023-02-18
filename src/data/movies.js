@@ -6,6 +6,7 @@ import kot from '../images/movies/kot.jpg';
 import ayash2 from '../images/movies/ayash2.png';
 import buyursa from '../images/movies/buyursa1.png';
 import boshetunmai1 from '../images/movies/boshetunmai1.png';
+import polchan from '../images/movies/polchan.jpg';
 
 export const moviesData = [
     {
@@ -63,6 +64,13 @@ export const moviesData = [
         trailer: "https://www.youtube.com/embed/nEyTUy2tP8g",
         movieImage: buyursa,
         descriptionId: "buyursa"
+    },
+    {
+        movieName: 'ПОЛЧАН',
+        description: "У кандидата в депутаты Сапара Асанова возникают большие проблемы. Журналисты выясняют, что он никогда нигде не служил, хотя везде указывал обратное и говорил что имеет военный билет. Новость быстро становится резонансной и общество начинает требовать, чтобы Сапарова забрали в армию. Понимая что он оказался в безвыходной ситуации, Сапаров соглашается отслужить. Но только прием в армии для него оказывается не таким теплым как он ожидал.",
+        trailer: "https://www.youtube.com/embed/I66CBYPFSvI",
+        movieImage: polchan,
+        descriptionId: "polchan"
     },
 
 ]

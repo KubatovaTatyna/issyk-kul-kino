@@ -1,6 +1,4 @@
 import './Footer.scss';
-import { Link } from 'react-router-dom';
-import logo from '../../images/footerlogo.png'
 import Logo from '../Logo/Logo';
 import Navbar from '../Navbar/Navbar';
 

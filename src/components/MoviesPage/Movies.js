@@ -1,7 +1,4 @@
 import './Movies.scss';
-// import { moviesData } from '../../data/movies';
-import Navbar from '../Navbar/Navbar';
-// import MovieItem from '../HomePage/MovieList/MovieItem/MovieItem';
 import MovieList from '../HomePage/MovieList/MovieList';
 import Footer from '../Footer/Footer'
 

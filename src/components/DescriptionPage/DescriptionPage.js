@@ -1,7 +1,7 @@
-import Navbar from '../Navbar/Navbar';
 import './DescriptionPage.scss';
 import { getMovie } from '../../data/movies';
 import { useParams } from "react-router-dom";
+import Footer from '../Footer/Footer';
 
 const DescriptionPage = () => {
     const params = useParams();
@@ -33,6 +33,7 @@ const DescriptionPage = () => {
                 </div>
             </div>
         </div>
+        <Footer />
     </div>);
 }
 
