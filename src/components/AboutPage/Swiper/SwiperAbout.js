@@ -13,6 +13,21 @@ import "./swiperStyleAbout.scss";
 
 const SwiperAbout = () => {
   return ( <Swiper
+  breakpoints={{
+    1920: {
+      slidesPerView:5
+    },
+    800: {
+      slidesPerView:4
+    },
+    640:{
+      slidesPerView:3
+    },
+    100:{
+      slidesPerView:1
+    }
+
+  }}
     slidesPerView={4}
     spaceBetween={30}
     centeredSlides={true}
