@@ -7,6 +7,7 @@ const Contact = () => {
             <div className='adress'>АДРЕС: г.Каракол ул. Абдрахманова 138</div>
             <div className='number'>НОМЕР ТЕЛЕФОНА: +996709-444-888</div>
             <a className='instagram' href='https://www.instagram.com/issykkul_kino/'>INSTAGRAM: @issykkul_kino</a>
+            <br />
             <a className='telegram' href='https://t.me/kinoteatrysykl'>TELEGRAM: @issykkul_kino</a>
         </div>
     </div>);
