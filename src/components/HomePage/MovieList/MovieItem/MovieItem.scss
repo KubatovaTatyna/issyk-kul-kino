@@ -4,7 +4,7 @@
 }
 
 .HoverText {
-  background:  rgba(19, 31, 49, 0.93);
+  background: rgba(19, 31, 49, 0.93);
   width: 226px;
   text-align: center;
   margin: 0 auto;
@@ -14,14 +14,30 @@
 .ImgHover {
   width: 226px;
   height: 330px;
-  margin: 0;
+  margin: 0 auto;
   overflow: hidden;
 }
 
 .ImgHover:hover {
   cursor: pointer;
+
   .HoverText {
     transform: translateY(-8rem);
     transition: all ease .6s;
+  }
+}
+
+@media(max-width:576px) {
+  .ImgHover {
+    width: 100%;
+  }
+
+  .MovieItem img {
+    width: 100%;
+  }
+
+  .HoverText {
+    font-size: 14px;
+    width: 100%;
   }
 }

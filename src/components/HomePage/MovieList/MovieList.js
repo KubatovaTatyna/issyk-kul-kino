@@ -10,11 +10,6 @@ const MovieList = () => {
     <div className='MovieList'>
       <div className="container">
         <div className='containerBackground row'>
-          {/* {moviesData.map((data, key) => {
-          return (
-            <MovieItem img={data.movieImage} name={data.movieName}/>
-          );
-        })} */}
           {movieItem}
         </div>
       </div>
