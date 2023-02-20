@@ -1,4 +1,4 @@
-import session from '../../images/12-02.jpg';
+import session from '../../images/session.jpg';
 import './Sessions.scss';
 import Footer from '../Footer/Footer';
 
