@@ -33,6 +33,7 @@ const DescriptionPage = () => {
                 </div>
             </div>
         </div>
+        <hr />
         <Footer />
     </div>);
 }

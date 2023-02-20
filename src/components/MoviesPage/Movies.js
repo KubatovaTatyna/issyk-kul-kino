@@ -6,6 +6,7 @@ const Movies = () => {
   return (<div className='Movies'>
     <h1 className='mt-5 mb-2 container'>СЕГОДНЯ В КИНО</h1>
     <MovieList />
+    <hr />
     <Footer />
   </div>);
 }

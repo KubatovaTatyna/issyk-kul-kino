@@ -12,6 +12,7 @@ const Sessions = () => {
                 <h2>Репертуар на {today}</h2>
                 <img alt='sessions' className="session-img" src={session} />
             </div>
+            <hr />
             <Footer />
         </div>
     );
