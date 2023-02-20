@@ -3,6 +3,9 @@ import cinema1 from '../../../images/cinema1.jpg';
 import cinema2 from '../../../images/cinema2.jpg';
 import cinema3 from '../../../images/cinema3.jpg';
 import cinema4 from '../../../images/cinema4.jpg';
+import cinema5 from '../../../images/cinema5.jpg';
+import cinema6 from '../../../images/cinema6.jpg';
+import cinema9 from '../../../images/cinema9.jpg';
 
 import { Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -41,6 +44,9 @@ const SwiperAbout = () => {
     <SwiperSlide><SwiperSlideAbout src={cinema2}/></SwiperSlide>
     <SwiperSlide><SwiperSlideAbout src={cinema3}/></SwiperSlide>
     <SwiperSlide><SwiperSlideAbout src={cinema4}/></SwiperSlide>
+    <SwiperSlide><SwiperSlideAbout src={cinema5}/></SwiperSlide>
+    <SwiperSlide><SwiperSlideAbout src={cinema6}/></SwiperSlide>
+    <SwiperSlide><SwiperSlideAbout src={cinema9}/></SwiperSlide>
   </Swiper> );
 }
 
