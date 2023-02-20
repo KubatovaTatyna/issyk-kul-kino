@@ -1,0 +1,12 @@
+.Apply {
+    border: 3px solid var(--home-page-color);
+    padding: 1rem 0;
+    width: 50%;
+    margin: 0 auto;
+}
+
+@media(max-width:700px) {
+    .Apply {
+        font-size: 14px;
+    }
+}
