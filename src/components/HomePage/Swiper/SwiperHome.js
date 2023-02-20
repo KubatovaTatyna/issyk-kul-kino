@@ -10,12 +10,17 @@ import "./swiperStyle.scss";
 
 
 const SwiperHome = () => {
-  return ( <Swiper
-    navigation={true} modules={[Navigation]}>
-      <SwiperSlide><SwiperSlideHome src={talash}/></SwiperSlide>
-      <SwiperSlide><SwiperSlideHome src={boshetunmai}/></SwiperSlide>
-      <SwiperSlide><SwiperSlideHome src={jez}/></SwiperSlide>
-    </Swiper> );
+  return (<Swiper
+    navigation={true}
+    modules={[Navigation]}
+    loop={true}
+    pagination={{
+      clickable: true,
+    }}>
+    <SwiperSlide><SwiperSlideHome src={talash} /></SwiperSlide>
+    <SwiperSlide><SwiperSlideHome src={boshetunmai} /></SwiperSlide>
+    <SwiperSlide><SwiperSlideHome src={jez} /></SwiperSlide>
+  </Swiper>);
 }
 
 export default SwiperHome;
