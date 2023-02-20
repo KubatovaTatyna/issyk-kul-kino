@@ -7,6 +7,7 @@ import ayash2 from '../images/movies/ayash2.png';
 import buyursa from '../images/movies/buyursa1.png';
 import boshetunmai1 from '../images/movies/boshetunmai1.png';
 import polchan from '../images/movies/polchan.jpg';
+import cheburashka from '../images/movies/cheburashka.webp';
 
 export const moviesData = [
     {
@@ -71,6 +72,13 @@ export const moviesData = [
         trailer: "https://www.youtube.com/embed/I66CBYPFSvI",
         movieImage: polchan,
         descriptionId: "polchan"
+    },
+    {
+        movieName: 'Чебурашка',
+        description:`Иногда, чтобы вернуть солнце и улыбки в мир взрослых, нужен один маленький ушастый герой! Мохнатого непоседливого зверька из далекой апельсиновой страны ждут удивительные приключения в тихом приморском городке, где ему предстоит найти себе имя, друзей и дом. Помогать – и мешать! – ему в этом будут нелюдимый старик-садовник, странная тетя-модница и ее капризная внучка, мальчик, который никак не начнет говорить, и его мама, которой приходится несладко, хотя она и варит самый вкусный на свете шоколад. И многие-многие другие, в чью жизнь вместе с ароматом апельсинов вот-вот ворвутся волшебство и приключения!`,
+        trailer: "https://www.youtube.com/embed/ueExdWhHsJo",
+        movieImage: cheburashka,
+        descriptionId: "cheburashka"
     },
 
 ]
